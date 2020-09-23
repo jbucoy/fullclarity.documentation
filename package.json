@@ -1,0 +1,12 @@
+{
+  "name": "fullclarity.documentation",
+  "version": "2020.2",
+  "description": "FullClarity Documentation",
+  "main": "index.js",
+  "author": "Andrew Coghlan",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
