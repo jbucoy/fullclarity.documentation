@@ -8,5 +8,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress-plugin-clean-urls": "^1.1.2"
   }
 }
