@@ -1,6 +1,6 @@
 {
   "name": "fullclarity.documentation",
-  "version": "2020.2",
+  "version": "2020.2.0",
   "description": "FullClarity Documentation",
   "main": "index.js",
   "author": "Andrew Coghlan",

@@ -1,8 +1,11 @@
 module.exports = {
-    title: "FullClarity Documentation",
+    title: "SuiteApp Documentation",
     description: 'This site holds the documentation for all FullClarity SuiteApps.',
+    cache: false,
     themeConfig: {
-        lastUpdated: 'Last Updated',
+        nextLinks: true,
+        prevLinks: true,
+        logo: '/assets/img/Logo-164x35.png',
         nav: [
             {text: "Home", link: '/index.html'},
             {text: "Products", ariaLabel: 'Prod Menu', items: [
@@ -14,6 +17,7 @@ module.exports = {
                             {text: 'Project Storage', link: '/project-storage'},
                         ]},
                     {text: 'Utility Apps', items: [
+                            {text: 'Code Libraries', link: '/utility-apps/code-libraries'},
                             {text: 'Portal', link: '/utility-apps/portal'}
                         ]}
                 ]},
@@ -30,8 +34,9 @@ module.exports = {
                 title: 'Utility Apps',
                 path: '',
                 collapsable: true,
-                sidebarDepth: 2,
+                sidebarDepth: 1,
                 children: [
+                    '/utility-apps/code-libraries',
                     '/utility-apps/portal'
                 ]
             }
@@ -46,5 +51,11 @@ module.exports = {
                 notFoundPath: '/404.html',
             },
         ],
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-134154809-2'
+            }
+        ]
     ]
 }
