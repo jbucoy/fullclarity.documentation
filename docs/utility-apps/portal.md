@@ -4,9 +4,25 @@
 A number of standard NetSuite modules are required in order to successfully install FullClarity Portal. These NetSuite settings are available by selecting “Setup”, “Company”, “Enable Features”.
 
 - SuiteCloud Tab
-    - Custom Records
-    - Server Suitescript
-    - Token Based Authentication
+    - SuiteBuilder
+        - Custom Records
+        - Advanced PDF / HTML Templates
+    - SuiteScript
+        - Client SuiteScript
+        - Server SuitesSript
+        - Workbook API
+        - Token Based Authentication
+    - SuiteFlow
+        - SuiteFlow
+    - SuiteGL
+        - Custom GL Lines
+        - Custom Transactions
+        - Custom Segments
+    - SuiteTalk
+        - Soap Web Services
+        - Rest Web Services
+    - Manage Authentication
+        - Token-based Authentication
     
 ## Installation & Configuration
 ### Deployment
