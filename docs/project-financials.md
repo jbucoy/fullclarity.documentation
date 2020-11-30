@@ -8,4 +8,4 @@ SuiteCloud Tab
 Custom Records
 Server Suitescript
 Token Based Authentication
-In addition to the NetSuite features, the FullClarity Portal SuiteApp must be installed prior to the FullClarity Storage SuiteApp. For more information about installing and configuring the FullClarity Portal, please see [Portal Utility App](/utility-apps/portal/).
+In addition to the NetSuite features, the FullClarity Portal SuiteApp must be installed prior to the FullClarity Storage SuiteApp. For more information about installing and configuring the FullClarity Portal, please see [Portal Utility App](/utility-apps/portal).
